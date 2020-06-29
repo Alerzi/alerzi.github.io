@@ -188,7 +188,7 @@ a:hover {
 }
 .online__block {
 	border-bottom: 1px solid black;
-	margin: 35px 15px 0;
+	margin: 35px 0 0;
 	padding-bottom: 15px;
 }
 .online__block input {
