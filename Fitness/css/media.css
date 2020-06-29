@@ -5,6 +5,9 @@
 	.online__btn {
 		text-align: center;
 	}
+	.online__block {
+		margin: 35px 15px 0;
+	}
 	.welcome__blocks {
 		justify-content: space-around;
 	}
