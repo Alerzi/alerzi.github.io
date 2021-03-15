@@ -105,6 +105,7 @@ a:hover{
 .header__blocks {
 	background: url('../img/14.png') no-repeat;
 	padding: 225px 0 45px;
+	background-size: 100% 100%;
 }
 .header__block-title {
 	max-width: 920px;
