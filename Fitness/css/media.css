@@ -1,0 +1,248 @@
+@media screen and (max-width: 1199px) {
+	.translation {
+		top: -50%;
+	}
+	.online {
+		max-width: 100%;
+	}
+	.online__btn {
+		text-align: center;
+	}
+	.online__block {
+		margin: 35px 15px 0;
+	}
+	.welcome__blocks {
+		justify-content: space-around;
+	}
+	.welcome__info {
+		margin-top: 0;
+	}
+	.welcome__img {
+		margin-right: 0;
+		margin-top: 50px;
+	}
+	.fitness__blocks {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.expert__blocks {
+		justify-content: space-around;
+	}
+	.footer__items {
+		justify-content: space-around;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.header__top {
+		padding: 0 15px 30px;
+	}
+	.header__logo {
+		margin-right: 15px;
+	}
+	.header__menu li + li {
+		margin-left: 15px;
+	}
+	.header__login a {
+		padding: 6px 8px;
+	}
+	.online {
+		padding: 55px 45px;
+	}
+	.personal {
+		padding: 100px 0;
+	}
+	.free__block-free, .free__block-call{
+		height: auto;
+		padding-top: 70px;
+		padding-bottom: 80px;
+	}
+	.free__block-subtitle {
+		font-size: 16px;
+	}
+	.free__block-title {
+		font-size: 36px;
+		margin-top: 25px;
+		margin-bottom: 40px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.header__menu {
+		display: flex !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header {
+		padding-bottom: 100px;
+	}
+	.header__menu {
+		display: none;
+		position: absolute;
+		width: 100%;
+		top: 60px;
+		text-align: center;
+		background-color: #ffffff;
+		padding: 10px 0;
+		margin-left: -6px;
+	}
+	.header__menu li + li {
+		margin-left: 0;
+		margin-top: 10px;
+	}
+	.header__menu a {
+		color: #000000;
+	}
+	.dropdown {
+		display: block;
+	}
+	.header__main {
+		padding: 110px 0 0;
+	}
+	.booking {
+		margin: -70px auto 40px;
+	}
+	.online {
+		padding: 40px 30px;
+	}
+	.online__btn {
+		text-align: center;
+	}
+	.welcome {
+		padding-bottom: 40px;
+	}
+	.welcome__img {
+		width: 500px;
+		height: 550px;
+	}
+	.fitness {
+		padding: 40px 0;
+	}
+	.fitness__title {
+		text-align: center;
+	}
+	.fitness__text {
+		text-align: center;
+	}
+	.personal {
+		padding: 40px 0;
+	}
+	.personal__subtitle {
+		font-size: 26px;
+	}
+	.personal__title {
+		font-size: 40px;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	.expert {
+		padding: 40px 0;
+	}
+	.expert__text {
+		font-size: 14px;
+		margin-top: 20px;
+		margin-bottom: 45px;
+	}
+	.free__block-free, .free__block-call{
+		width: 100%;
+	}
+	.footer__fitness-form button {
+		transform: translateY(-1px);
+	}
+	.footer {
+		padding: 20px 0 40px;
+	}	
+}
+
+@media screen and (max-width: 650px) {
+	.header__title {
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.welcome__img {
+		width: 350px;
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.header__top {
+		padding: 0 5px 30px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.header__login li + li {
+		margin-left: 10px;
+	}
+	.header__login a {
+		font-size: 12px;
+		letter-spacing: 0;
+		border: none;
+		padding: 0;
+	}
+	.header__login a:hover{
+		border: none;
+	}
+	.header__title {
+		font-size: 30px;
+	}
+	.online__title {
+		font-size: 30px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.welcome__title {
+		font-size: 28px;
+	}
+	.welcome__subtitle {
+		font-size: 12px;
+		line-height: 20px;
+		margin: 20px 0;
+	}
+	.welcome__text {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.welcome__btn {
+		text-align: center;
+	}
+	.fitness__title {
+		font-size: 28px;
+		line-height: 20px;
+	}
+	.fitness__text {
+		font-size: 14px;
+		line-height: 20px;
+		margin-top: 15px;
+		margin-bottom: 25px;
+	}
+	.personal__subtitle {
+		font-size: 23px;
+	}
+	.personal__title {
+		font-size: 30px;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.footer__fitness-title {
+		margin-bottom: 25px;
+	}
+	.footer__fitness-social {
+		margin-top: 30px;
+		margin-bottom: 35px;
+	}
+	.footer__fitness-form {
+		text-align: center;
+	}
+	.footer__fitness-form button {
+		margin-top: 20px;
+	}	
+}
